@@ -1,0 +1,199 @@
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| ESTILO A TEXTOS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.font-bold {
+    font-weight: 900;
+}
+.no-font-bold {
+    font-weight: normal;
+}
+
+.text-main {
+    font-size: var(--text-main);
+}
+.text-title {
+    font-size: var(--text-title);
+}
+.text-subtitle {
+    font-size: var(--text-subtitle);
+}
+.text-content {
+    font-size: var(--text-content);
+}
+.text-description {
+    font-size: var(--text-description);
+}
+.text-smalldata {
+    font-size: var(--text-smalldata);
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| COLOR A TEXTOS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.color-white {
+    color: var(--color-white);
+}
+.color-white-variation {
+    color: var(--color-white-variation);
+}
+.color-black {
+    color: var(--color-black);
+}
+.color-black-variation {
+    color: var(--color-black-variation);
+}
+.color-gray {
+    color: var(--color-gray);
+}
+.color-gray-variation {
+    color: var(--color-gray-variation);
+}
+.color-red {
+    color: var(--color-red);
+}
+.color-red-variation {
+    color: var(--color-red-variation);
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| COLOR A FONDOS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.bg-color-white {
+    background-color: var(--color-white);
+}
+.bg-color-white-variation {
+    background-color: var(--color-white-variation);
+}
+.bg-color-black {
+    background-color: var(--color-black);
+}
+.bg-color-black-variation {
+    background-color: var(--color-black-variation);
+}
+.bg-color-gray {
+    background-color: var(--color-gray);
+}
+.bg-color-gray-variation {
+    background-color: var(--color-gray-variation);
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| ESTILO A MARGENES INTERNOS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.padding-xb-top {
+    padding-top: var(--space-xb);
+}
+.padding-bg-top {
+    padding-top: var(--space-bg);
+}
+.padding-md-top {
+    padding-top: var(--space-md);
+}
+.padding-sm-top {
+    padding-top: var(--space-sm);
+}
+.padding-xm-top {
+    padding-top: var(--space-xm);
+}
+
+.padding-xb-bottom {
+    padding-bottom: var(--space-xb);
+}
+.padding-bg-bottom {
+    padding-bottom: var(--space-bg);
+}
+.padding-md-bottom {
+    padding-bottom: var(--space-md);
+}
+.padding-sm-bottom {
+    padding-bottom: var(--space-sm);
+}
+.padding-xm-bottom {
+    padding-bottom: var(--space-xm);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| ESTILO A MARGENES EXTERNOS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.margin-xb-top {
+    margin-top: var(--space-xb);
+}
+.margin-bg-top {
+    padding-top: var(--space-bg);
+}
+.margin-md-top {
+    margin-top: var(--space-md);
+}
+.margin-sm-top {
+    margin-top: var(--space-sm);
+}
+.margin-xm-top {
+    margin-top: var(--space-xm);
+}
+
+.margin-xb-bottom {
+    margin-bottom: var(--space-xb);
+}
+.margin-bg-bottom {
+    margin-bottom: var(--space-bg);
+}
+.margin-md-bottom {
+    margin-bottom: var(--space-md);
+}
+.margin-sm-bottom {
+    margin-bottom: var(--space-sm);
+}
+.margin-xm-bottom {
+    margin-bottom: var(--space-xm);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------
+-------------| ESTILO A CAJAS
+-----------------------------------------------------------------------------------------------------------------------*/
+
+.w-100 {
+    box-sizing: border-box;
+    width: 100% !important;
+}
+
+
+.content-flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-rounded {
+    border-radius: var(--rounded);
+}
+
+.link-app {
+    text-decoration: none;
+    font-size: var(--text-description);
+    padding: 0px var(--space-xm);
+    margin: var(--space-xm);
+    border-radius: var(--rounded);
+    color: var(--color-main-on);
+    background-color: var(--color-main);
+}
